@@ -1,0 +1,52 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+    margin: 10px;
+}
+
+.container__hijo {
+    all: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: blue;
+    min-width: 61px;
+    min-height: 61px;
+    font-size: 2rem;
+    border: 3px solid transparent;
+}
+
+.container__hijo:disabled {
+    opacity: .5;
+}
+
+.acertou {
+    border: 3px solid green;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: .7rem;
+}
+
+.playButton {
+    all: unset;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+    background-color: #4361ee;
+}
+
+.title__win {
+    font-size: 2rem;
+
+}
